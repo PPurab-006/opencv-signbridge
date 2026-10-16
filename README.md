@@ -15,8 +15,8 @@ The project pairs substantive **OpenCV 5** computer vision algorithms for real-t
 ## 2. Competition Requirements & Preserved Constraints
 
 > [!IMPORTANT]
-> **Implementation Status: Repository Setup Phase (Pre-Implementation)**  
-> This repository is in the initial setup phase. No dependencies have been installed, no models downloaded, and no AWS cloud resources provisioned.
+> **Implementation Status: MVP Completion Phase**  
+> The repository now includes a fully functional MVP demonstrating real-time gesture recognition using OpenCV 5, a FastAPI backend, and an AWS S3 integration fallback mechanism.
 
 The following mandatory competition rules are strictly preserved for future development:
 - **Substantive OpenCV 5 Core:** OpenCV 5 must perform substantive, real-time image and video processing (pose estimation, hand landmark localization, motion vectors), rather than functioning as a cosmetic wrapper.
@@ -48,6 +48,40 @@ opencv-signbridge/
 
 ---
 
-## 5. License
+## 5. Setup and Execution
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Generate Data and Train Model:**
+   ```bash
+   python scripts/generate_data.py
+   python scripts/train.py
+   ```
+3. **Run Demo Script:**
+   ```bash
+   PYTHONPATH=. python scripts/demo.py
+   ```
+4. **Run Web Server:**
+   ```bash
+   PYTHONPATH=. uvicorn backend.main:app --host 0.0.0.0 --port 8000
+   ```
+5. **Run Tests:**
+   ```bash
+   PYTHONPATH=. pytest tests/
+   ```
+
+---
+
+## 6. Architecture & Results
+
+- **Vision Pipeline:** Uses OpenCV 5 for color space conversion (YCrCb), morphological noise removal, contour detection, and convex hull/defects calculation to extract hand geometry features.
+- **Model:** A Scikit-Learn `RandomForestClassifier` trained on synthetic geometric features.
+- **AWS Integration:** Uses `boto3` to upload evaluation JSON reports to S3, with a graceful local fallback mechanism if AWS credentials are not configured.
+- **Evaluation:** Evaluated on synthetic isolated gesture data (`HELLO`, `PEACE`, `OKAY`). F1 score on synthetic data is 1.0 (Note: Subject to real-world evaluation later).
+- **Limitations:** This MVP recognizes a bounded set of isolated gestures and does not translate unrestricted continuous sign language.
+
+## 7. License
 
 This project is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.

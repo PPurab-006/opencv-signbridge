@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignBridge: Sign Language Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>SignBridge</h1>
+        <p>OpenCV AI Competition 2026 - Accessibility Assistant</p>
+    </header>
+
+    <main>
+        <section id="notice" aria-labelledby="notice-heading">
+            <h2 id="notice-heading">Important Notice & Limitations</h2>
+            <p>
+                This MVP recognizes a bounded set of isolated gestures: <strong>HELLO, PEACE, OKAY</strong>. 
+                It <em>does not</em> translate unrestricted continuous sign language and is not a replacement for a qualified interpreter.
+                A minimum confidence threshold is applied.
+            </p>
+        </section>
+
+        <section id="controls">
+            <button id="start-camera">Start Camera</button>
+            <button id="stop-camera" disabled>Stop Camera</button>
+            <button id="clear-transcript">Clear Transcript</button>
+        </section>
+
+        <section id="video-container">
+            <div class="video-wrapper">
+                <video id="webcam" autoplay playsinline muted style="display:none;"></video>
+                <img id="output" alt="Processed vision pipeline output will appear here" src="" />
+                <canvas id="canvas" style="display:none;"></canvas>
+            </div>
+            
+            <div class="status-panel">
+                <h3>Prediction Status</h3>
+                <div id="prediction-box">Waiting for input...</div>
+                <div id="confidence-bar-container">
+                    <div id="confidence-bar"></div>
+                </div>
+                <p id="confidence-text">Confidence: 0%</p>
+            </div>
+        </section>
+
+        <section id="transcript-section">
+            <h2>Live Transcript</h2>
+            <ul id="transcript" aria-live="polite"></ul>
+        </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

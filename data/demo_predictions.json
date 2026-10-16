@@ -1,0 +1,602 @@
+[
+    {
+        "frame": 0,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 1,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.38
+    },
+    {
+        "frame": 2,
+        "prediction": "HELLO",
+        "confidence": 0.94
+    },
+    {
+        "frame": 3,
+        "prediction": "HELLO",
+        "confidence": 0.73
+    },
+    {
+        "frame": 4,
+        "prediction": "HELLO",
+        "confidence": 0.51
+    },
+    {
+        "frame": 5,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.4
+    },
+    {
+        "frame": 6,
+        "prediction": "HELLO",
+        "confidence": 0.91
+    },
+    {
+        "frame": 7,
+        "prediction": "HELLO",
+        "confidence": 1.0
+    },
+    {
+        "frame": 8,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.53
+    },
+    {
+        "frame": 9,
+        "prediction": "HELLO",
+        "confidence": 0.83
+    },
+    {
+        "frame": 10,
+        "prediction": "HELLO",
+        "confidence": 0.65
+    },
+    {
+        "frame": 11,
+        "prediction": "HELLO",
+        "confidence": 0.52
+    },
+    {
+        "frame": 12,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.56
+    },
+    {
+        "frame": 13,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.54
+    },
+    {
+        "frame": 14,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.64
+    },
+    {
+        "frame": 15,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.78
+    },
+    {
+        "frame": 16,
+        "prediction": "OKAY",
+        "confidence": 0.63
+    },
+    {
+        "frame": 17,
+        "prediction": "OKAY",
+        "confidence": 0.98
+    },
+    {
+        "frame": 18,
+        "prediction": "OKAY",
+        "confidence": 0.4
+    },
+    {
+        "frame": 19,
+        "prediction": "HELLO",
+        "confidence": 0.98
+    },
+    {
+        "frame": 20,
+        "prediction": "HELLO",
+        "confidence": 0.6
+    },
+    {
+        "frame": 21,
+        "prediction": "HELLO",
+        "confidence": 1.0
+    },
+    {
+        "frame": 22,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.5
+    },
+    {
+        "frame": 23,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.38
+    },
+    {
+        "frame": 24,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.59
+    },
+    {
+        "frame": 25,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.86
+    },
+    {
+        "frame": 26,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.51
+    },
+    {
+        "frame": 27,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.51
+    },
+    {
+        "frame": 28,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.47
+    },
+    {
+        "frame": 29,
+        "prediction": "UNCERTAIN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 30,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.85
+    },
+    {
+        "frame": 31,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.57
+    },
+    {
+        "frame": 32,
+        "prediction": "PEACE",
+        "confidence": 1.0
+    },
+    {
+        "frame": 33,
+        "prediction": "PEACE",
+        "confidence": 0.53
+    },
+    {
+        "frame": 34,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.59
+    },
+    {
+        "frame": 35,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.99
+    },
+    {
+        "frame": 36,
+        "prediction": "PEACE",
+        "confidence": 0.63
+    },
+    {
+        "frame": 37,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.39
+    },
+    {
+        "frame": 38,
+        "prediction": "PEACE",
+        "confidence": 0.61
+    },
+    {
+        "frame": 39,
+        "prediction": "PEACE",
+        "confidence": 0.58
+    },
+    {
+        "frame": 40,
+        "prediction": "UNCERTAIN",
+        "confidence": 0.79
+    },
+    {
+        "frame": 41,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 42,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 43,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.53
+    },
+    {
+        "frame": 44,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 45,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.84
+    },
+    {
+        "frame": 46,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 47,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.64
+    },
+    {
+        "frame": 48,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 49,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 50,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 51,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 52,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 53,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.93
+    },
+    {
+        "frame": 54,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 55,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 56,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.93
+    },
+    {
+        "frame": 57,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 58,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 59,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 60,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.95
+    },
+    {
+        "frame": 61,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 62,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 63,
+        "prediction": "OKAY",
+        "confidence": 0.9
+    },
+    {
+        "frame": 64,
+        "prediction": "OKAY",
+        "confidence": 0.77
+    },
+    {
+        "frame": 65,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 66,
+        "prediction": "OKAY",
+        "confidence": 0.36
+    },
+    {
+        "frame": 67,
+        "prediction": "OKAY",
+        "confidence": 0.99
+    },
+    {
+        "frame": 68,
+        "prediction": "OKAY",
+        "confidence": 0.57
+    },
+    {
+        "frame": 69,
+        "prediction": "OKAY",
+        "confidence": 0.99
+    },
+    {
+        "frame": 70,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 71,
+        "prediction": "OKAY",
+        "confidence": 0.9
+    },
+    {
+        "frame": 72,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 73,
+        "prediction": "OKAY",
+        "confidence": 0.98
+    },
+    {
+        "frame": 74,
+        "prediction": "OKAY",
+        "confidence": 0.71
+    },
+    {
+        "frame": 75,
+        "prediction": "OKAY",
+        "confidence": 0.89
+    },
+    {
+        "frame": 76,
+        "prediction": "OKAY",
+        "confidence": 0.65
+    },
+    {
+        "frame": 77,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 78,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 79,
+        "prediction": "OKAY",
+        "confidence": 0.99
+    },
+    {
+        "frame": 80,
+        "prediction": "OKAY",
+        "confidence": 0.97
+    },
+    {
+        "frame": 81,
+        "prediction": "OKAY",
+        "confidence": 1.0
+    },
+    {
+        "frame": 82,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 83,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 84,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 85,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 86,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 87,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.79
+    },
+    {
+        "frame": 88,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.97
+    },
+    {
+        "frame": 89,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 90,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.84
+    },
+    {
+        "frame": 91,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.79
+    },
+    {
+        "frame": 92,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 93,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.93
+    },
+    {
+        "frame": 94,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 95,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 96,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 97,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 98,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 99,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 1.0
+    },
+    {
+        "frame": 100,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 101,
+        "prediction": "REST/UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 102,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 103,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 104,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 105,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 106,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 107,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 108,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 109,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 110,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 111,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 112,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 113,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 114,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 115,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 116,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 117,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 118,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    },
+    {
+        "frame": 119,
+        "prediction": "UNKNOWN",
+        "confidence": 0.0
+    }
+]

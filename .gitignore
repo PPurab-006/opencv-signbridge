@@ -82,3 +82,5 @@ htmlcov/
 *~
 .DS_Store
 Thumbs.db
+data/*.fallback_log
+test_metrics.json*
